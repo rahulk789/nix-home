@@ -20,6 +20,8 @@
         profile = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           modules = [./home.nix ];
+          username = "xenon"
+          homeDirectory = "/home/xenon"
         };
       };
     };
